@@ -88,4 +88,4 @@ elif [ $1 == "6" ]
             --gopro \
             --project_title _preundist
 
-fi
+fid

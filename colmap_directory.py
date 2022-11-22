@@ -76,7 +76,6 @@ def main():
     parser.add_argument('--project_title', default="", type=str, help='additional project title')
     parser.add_argument('--ngp_eval', action='store_true', help='apply ngp testing')
 
-
     opt = parser.parse_args()
 
     # initialize mask predictor

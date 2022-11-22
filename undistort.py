@@ -19,10 +19,10 @@ class GoproUNndistort():
                     [0.,             0.,                1.]
                 ]),
                 radialDistortion = np.array([
-                    -0.244052127306437,
-                    0.0597008096110524,
-                    0,
-                    0          #assumed no tangential distortion here. 
+                    [-0.244052127306437],
+                    [0.0597008096110524],        #assumed no tangential distortion here. 
+                    [0],
+                    [0]
                 ])
             )
         ]
